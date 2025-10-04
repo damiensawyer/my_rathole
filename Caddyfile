@@ -1,19 +1,19 @@
 {
-    auto_https off
+	auto_https off
 }
 
 http://registry.datquehuong.com {
-    reverse_proxy localhost:5000
+	reverse_proxy localhost:5000
 }
 
 http://registryui.datquehuong.com {
-    reverse_proxy localhost:8081
+	reverse_proxy localhost:8081
 }
 
 http://devtaps.datquehuong.com {
-    reverse_proxy localhost:8082
+	reverse_proxy localhost:8082
 }
 
 http://prodtaps.datquehuong.com {
-    reverse_proxy localhost:8083
+	reverse_proxy localhost:8083
 }
