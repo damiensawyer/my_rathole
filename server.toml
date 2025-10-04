@@ -2,6 +2,18 @@
 [server]
 bind_addr = "0.0.0.0:2333" # `2333` specifies the port that rathole listens for clients
 
-[server.services.my_nas_ssh]
-token = "use_a_secret_that_only_you_know" # Token that is used to authenticate the client for the service. Change to an arbitrary value.
-bind_addr = "0.0.0.0:81" # `81` specifies the port that exposes `my_nas_ssh` to the Internet
+[server.services.registry]
+token = "use_a_secret_that_only_you_know"
+bind_addr = "0.0.0.0:5000" # registry.datquehuong.com
+
+[server.services.registryui]
+token = "use_a_secret_that_only_you_know"
+bind_addr = "0.0.0.0:8081" # registryui.datquehuong.com
+
+[server.services.devtaps]
+token = "use_a_secret_that_only_you_know"
+bind_addr = "0.0.0.0:8082" # devtaps.datquehuong.com
+
+[server.services.prodtaps]
+token = "use_a_secret_that_only_you_know"
+bind_addr = "0.0.0.0:8083" # prodtaps.datquehuong.com

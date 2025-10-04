@@ -2,6 +2,18 @@
 [client]
 remote_addr = "redirect.datquehuong.com:2333" # The address of the server. The port must be the same with the port in `server.bind_addr`
 
-[client.services.my_nas_ssh]
-token = "use_a_secret_that_only_you_know" # Must be the same with the server to pass the validation
-local_addr = "127.0.0.1:80" # The address of the service that needs to be forwarded
+[client.services.registry]
+token = "use_a_secret_that_only_you_know"
+local_addr = "127.0.0.1:5000" # registry.datquehuong.com → local port 5000
+
+[client.services.registryui]
+token = "use_a_secret_that_only_you_know"
+local_addr = "127.0.0.1:8081" # registryui.datquehuong.com → local port 8081
+
+[client.services.devtaps]
+token = "use_a_secret_that_only_you_know"
+local_addr = "127.0.0.1:8082" # devtaps.datquehuong.com → local port 8082
+
+[client.services.prodtaps]
+token = "use_a_secret_that_only_you_know"
+local_addr = "127.0.0.1:8083" # prodtaps.datquehuong.com → local port 8083
