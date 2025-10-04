@@ -2,7 +2,7 @@ registry.datquehuong.com {
 	reverse_proxy localhost:5000
 }
 
-registryui.datquehuong.com {
+uireg.datquehuong.com {
 	reverse_proxy localhost:8081
 }
 
