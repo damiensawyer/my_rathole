@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(chmod:*)",
-      "Bash(caddy fmt:*)"
+      "Bash(caddy fmt:*)",
+      "Read(//tmp/**)",
+      "Bash(/tmp/caddy fmt:*)"
     ],
     "deny": [],
     "ask": []
