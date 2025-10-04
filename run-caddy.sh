@@ -1,4 +1,5 @@
 #!/bin/bash
 
-# Run Caddy with the Caddyfile in this directory
+# Run rathole server in the background, then run Caddy
+./rathole server.toml &
 caddy run --config Caddyfile --adapter caddyfile
