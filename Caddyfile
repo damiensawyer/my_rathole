@@ -1,0 +1,15 @@
+registry.datquehuong.com {
+    reverse_proxy localhost:5000
+}
+
+registryui.datquehuong.com {
+    reverse_proxy localhost:8081
+}
+
+devtaps.datquehuong.com {
+    reverse_proxy localhost:8082
+}
+
+prodtaps.datquehuong.com {
+    reverse_proxy localhost:8083
+}
