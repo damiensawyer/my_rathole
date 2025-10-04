@@ -4,16 +4,16 @@ bind_addr = "0.0.0.0:2333" # `2333` specifies the port that rathole listens for 
 
 [server.services.registry]
 token = "use_a_secret_that_only_you_know"
-bind_addr = "0.0.0.0:5000" # registry.datquehuong.com
+bind_addr = "127.0.0.1:5000" # registry.datquehuong.com
 
 [server.services.registryui]
 token = "use_a_secret_that_only_you_know"
-bind_addr = "0.0.0.0:8081" # registryui.datquehuong.com
+bind_addr = "127.0.0.1:8081" # registryui.datquehuong.com
 
 [server.services.devtaps]
 token = "use_a_secret_that_only_you_know"
-bind_addr = "0.0.0.0:8082" # devtaps.datquehuong.com
+bind_addr = "127.0.0.1:8082" # devtaps.datquehuong.com
 
 [server.services.prodtaps]
 token = "use_a_secret_that_only_you_know"
-bind_addr = "0.0.0.0:8083" # prodtaps.datquehuong.com
+bind_addr = "127.0.0.1:8083" # prodtaps.datquehuong.com

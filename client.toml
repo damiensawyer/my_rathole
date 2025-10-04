@@ -1,6 +1,6 @@
 # client.toml
 [client]
-remote_addr = "redirect.datquehuong.com:2333" # The address of the server. The port must be the same with the port in `server.bind_addr`
+remote_addr = "registry.datquehuong.com:2333" # The address of the server. The port must be the same with the port in `server.bind_addr`
 
 [client.services.registry]
 token = "use_a_secret_that_only_you_know"
