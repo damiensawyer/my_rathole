@@ -4,7 +4,8 @@
       "Bash(chmod:*)",
       "Bash(caddy fmt:*)",
       "Read(//tmp/**)",
-      "Bash(/tmp/caddy fmt:*)"
+      "Bash(/tmp/caddy fmt:*)",
+      "Bash(systemctl status:*)"
     ],
     "deny": [],
     "ask": []
