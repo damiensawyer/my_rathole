@@ -17,3 +17,7 @@ local_addr = "127.0.0.1:8082" # devtaps.datquehuong.com → local port 8082
 [client.services.prodtaps]
 token = "use_a_secret_that_only_you_know"
 local_addr = "127.0.0.1:8083" # prodtaps.datquehuong.com → local port 8083
+
+[client.services.ssh]
+token = "use_a_secret_that_only_you_know"
+local_addr = "127.0.0.1:22" # SSH to local machine
