@@ -19,6 +19,8 @@ WorkingDirectory=${SCRIPT_DIR}
 ExecStart=${SCRIPT_DIR}/run_server.sh
 Restart=on-failure
 RestartSec=5s
+KillMode=control-group
+KillSignal=SIGTERM
 
 [Install]
 WantedBy=multi-user.target

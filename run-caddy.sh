@@ -1,5 +1,15 @@
 #!/bin/bash
 
-# Run rathole server in the background, then run Caddy
+# Trap SIGTERM and SIGINT to kill child processes
+trap 'kill $(jobs -p) 2>/dev/null; exit' SIGTERM SIGINT
+
+# Run rathole server in the background
 ./rathole server.toml &
-caddy run --config Caddyfile --adapter caddyfile
+RATHOLE_PID=$!
+
+# Run Caddy in the background
+caddy run --config Caddyfile --adapter caddyfile &
+CADDY_PID=$!
+
+# Wait for both processes
+wait
