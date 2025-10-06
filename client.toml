@@ -20,4 +20,4 @@ local_addr = "127.0.0.1:8083" # prodtaps.datquehuong.com → local port 8083
 
 [client.services.ssh]
 token = "use_a_secret_that_only_you_know"
-local_addr = "127.0.0.1:22" # SSH to local machine
+local_addr = "127.0.0.1:22" # SSH to local machine (accessed via ssh -p 2222 user@registry.datquehuong.com)

@@ -20,4 +20,4 @@ bind_addr = "127.0.0.1:8083" # prodtaps.datquehuong.com
 
 [server.services.ssh]
 token = "use_a_secret_that_only_you_know"
-bind_addr = "0.0.0.0:22" # SSH access
+bind_addr = "0.0.0.0:2222" # SSH access to client machine (use ssh -p 2222 user@registry.datquehuong.com)
