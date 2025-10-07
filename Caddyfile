@@ -3,7 +3,7 @@ registry.datquehuong.com {
 	handle /v2/*/blobs/uploads/* {
 		reverse_proxy localhost:8080
 	}
-	
+
 	# Other registry API and UI - can use compression
 	handle {
 		reverse_proxy localhost:8080
