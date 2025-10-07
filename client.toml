@@ -4,7 +4,7 @@ remote_addr = "registry.datquehuong.com:2333" # The address of the server. The p
 
 [client.services.registry]
 token = "use_a_secret_that_only_you_know"
-local_addr = "127.0.0.1:5000" # registry.datquehuong.com → local port 5000
+local_addr = "0.0.0.0:5000" # registry.datquehuong.com → local port 5000
 
 [client.services.registryweb]
 token = "use_a_secret_that_only_you_know"
