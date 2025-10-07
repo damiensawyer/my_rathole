@@ -3,7 +3,15 @@ registry.datquehuong.com {
 }
 
 uireg.datquehuong.com {
-	reverse_proxy localhost:5001
+	# Registry API calls - proxy to registry
+	handle /v2/* {
+		reverse_proxy localhost:5000
+	}
+	
+	# Everything else - proxy to UI
+	handle {
+		reverse_proxy localhost:5001
+	}
 }
 
 devtaps.datquehuong.com {
