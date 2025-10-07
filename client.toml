@@ -8,7 +8,7 @@ local_addr = "127.0.0.1:5000" # registry.datquehuong.com → local port 5000
 
 [client.services.uireg]
 token = "use_a_secret_that_only_you_know"
-local_addr = "127.0.0.1:8081" # uireg.datquehuong.com → local port 8081
+local_addr = "127.0.0.1:8080" # uireg.datquehuong.com → local port 8080
 
 [client.services.devtaps]
 token = "use_a_secret_that_only_you_know"
