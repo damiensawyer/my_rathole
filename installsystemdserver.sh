@@ -16,9 +16,11 @@ After=network.target
 Type=simple
 User=$(whoami)
 WorkingDirectory=${SCRIPT_DIR}
-ExecStart=${SCRIPT_DIR}/run_server.sh
+ExecStart=${SCRIPT_DIR}/run-caddy.sh
 Restart=on-failure
 RestartSec=5s
+KillMode=control-group
+KillSignal=SIGTERM
 
 [Install]
 WantedBy=multi-user.target
