@@ -1,5 +1,6 @@
 registry.datquehuong.com {
 	reverse_proxy localhost:5000
+	encode gzip
 }
 
 uireg.datquehuong.com {
@@ -12,12 +13,15 @@ uireg.datquehuong.com {
 	handle {
 		reverse_proxy localhost:5001
 	}
+	encode gzip
 }
 
 devtaps.datquehuong.com {
 	reverse_proxy localhost:8082
+	encode gzip
 }
 
 prodtaps.datquehuong.com {
 	reverse_proxy localhost:8083
+	encode gzip
 }
