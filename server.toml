@@ -10,11 +10,11 @@ bind_addr = "0.0.0.0:5000" # registry.datquehuong.com
 token = "use_a_secret_that_only_you_know"
 bind_addr = "127.0.0.1:5001" # uireg.datquehuong.com
 
-[server.services.devtaps]
+[server.services.devgumshoe]
 token = "use_a_secret_that_only_you_know"
 bind_addr = "127.0.0.1:8082" # devtaps.datquehuong.com
 
-[server.services.prodtaps]
+[server.services.prodgumshoe]
 token = "use_a_secret_that_only_you_know"
 bind_addr = "127.0.0.1:8083" # prodtaps.datquehuong.com
 

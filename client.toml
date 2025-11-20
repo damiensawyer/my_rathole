@@ -10,11 +10,11 @@ local_addr = "127.0.0.1:5000" # registry.datquehuong.com → local port 5000
 token = "use_a_secret_that_only_you_know"
 local_addr = "127.0.0.1:5001" # uireg.datquehuong.com → local port 5001
 
-[client.services.devtaps]
+[client.services.devgumshoe]
 token = "use_a_secret_that_only_you_know"
 local_addr = "127.0.0.1:5002" # devtaps.datquehuong.com → local port 8082
 
-[client.services.prodtaps]
+[client.services.prodgumshoe]
 token = "use_a_secret_that_only_you_know"
 local_addr = "127.0.0.1:5003" # prodtaps.datquehuong.com → local port 8083
 
