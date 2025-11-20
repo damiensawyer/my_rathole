@@ -1,9 +1,9 @@
-ratregistry.datquehuong.com {
+ratregistry.gumshoe.au {
 	reverse_proxy localhost:5000
 	encode gzip
 }
 
-ratuireg.gumshoe.sh {
+ratuireg.gumshoe.au {
 	# Registry API calls - proxy to registry
 	handle /v2/* {
 		reverse_proxy localhost:5000
@@ -16,12 +16,12 @@ ratuireg.gumshoe.sh {
 	encode gzip
 }
 
-ratdev.gumshoe.sh {
+ratdev.gumshoe.au {
 	reverse_proxy localhost:8082
 	encode gzip
 }
 
-ratprod.gumshoe.sh {
+ratprod.gumshoe.au {
 	reverse_proxy localhost:8083
 	encode gzip
 }
