@@ -4,20 +4,20 @@ remote_addr = "registry.datquehuong.com:2333" # The address of the server. The p
 
 [client.services.registry]
 token = "use_a_secret_that_only_you_know"
-local_addr = "127.0.0.1:5000" # registry.datquehuong.com → local port 5000
+local_addr = "127.0.0.1:5000"
 
 [client.services.uireg]
 token = "use_a_secret_that_only_you_know"
-local_addr = "127.0.0.1:5001" # uireg.datquehuong.com → local port 5001
+local_addr = "127.0.0.1:5001"
 
 [client.services.devgumshoe]
 token = "use_a_secret_that_only_you_know"
-local_addr = "127.0.0.1:5002" # devtaps.datquehuong.com → local port 8082
+local_addr = "127.0.0.1:5002"
 
 [client.services.prodgumshoe]
 token = "use_a_secret_that_only_you_know"
-local_addr = "127.0.0.1:5003" # prodtaps.datquehuong.com → local port 8083
+local_addr = "127.0.0.1:5003"
 
 [client.services.ssh]
 token = "use_a_secret_that_only_you_know"
-local_addr = "127.0.0.1:22" # SSH to local machine (accessed via ssh -p 2222 user@registry.datquehuong.com)
+local_addr = "127.0.0.1:22"               # SSH to local machine (accessed via ssh -p 2222 user@domain....
