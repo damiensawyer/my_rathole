@@ -16,11 +16,6 @@ ratuireg.gumshoe.au {
 	encode gzip
 }
 
-ratdev.gumshoe.au {
-	reverse_proxy localhost:8082
-	encode gzip
-}
-
 ratprod.gumshoe.au {
 	reverse_proxy localhost:8083
 	encode gzip

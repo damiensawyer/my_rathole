@@ -10,11 +10,7 @@ local_addr = "127.0.0.1:5000"
 token = "use_a_secret_that_only_you_know"
 local_addr = "127.0.0.1:5001"
 
-[client.services.devgumshoe]
-token = "use_a_secret_that_only_you_know"
-local_addr = "127.0.0.1:5002"
-
-[client.services.prodgumshoe]
+[client.services.ratwww]
 token = "use_a_secret_that_only_you_know"
 local_addr = "127.0.0.1:5003"
 
