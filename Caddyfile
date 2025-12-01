@@ -1,9 +1,9 @@
-ratregistry.daddigital.au {
+ratregistry.daddigital.com {
 	reverse_proxy localhost:5000
 	encode gzip
 }
 
-ratuireg.daddigital.au {
+ratuireg.daddigital.com {
 	# Registry API calls - proxy to registry
 	handle /v2/* {
 		reverse_proxy localhost:5000
