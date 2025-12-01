@@ -10,9 +10,13 @@ local_addr = "127.0.0.1:5000"
 token = "use_a_secret_that_only_you_know"
 local_addr = "127.0.0.1:5001"
 
-[client.services.ratwww]
+[client.services.ratgumshoe]
 token = "use_a_secret_that_only_you_know"
-local_addr = "127.0.0.1:5004"
+local_addr = "127.0.0.1:5100"
+
+[client.services.rattaps]
+token = "use_a_secret_that_only_you_know"
+local_addr = "127.0.0.1:5200"
 
 [client.services.ssh]
 token = "use_a_secret_that_only_you_know"

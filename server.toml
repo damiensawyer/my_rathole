@@ -10,9 +10,13 @@ bind_addr = "0.0.0.0:5000"
 token = "use_a_secret_that_only_you_know"
 bind_addr = "127.0.0.1:5001"
 
-[server.services.ratwww]
+[server.services.ratgumshoe]
 token = "use_a_secret_that_only_you_know"
 bind_addr = "127.0.0.1:8083"
+
+[server.services.rattaps]
+token = "use_a_secret_that_only_you_know"
+bind_addr = "127.0.0.1:8084"
 
 [server.services.ssh]
 token = "use_a_secret_that_only_you_know"

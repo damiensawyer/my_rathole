@@ -16,7 +16,13 @@ ratuireg.gumshoe.au {
 	encode gzip
 }
 
-ratprod.gumshoe.au {
+rat.gumshoe.au {
 	reverse_proxy localhost:8083
+	encode gzip
+}
+
+
+rattaps.daddigital.com {
+	reverse_proxy localhost:8084
 	encode gzip
 }
