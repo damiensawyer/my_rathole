@@ -12,7 +12,7 @@ local_addr = "127.0.0.1:5001"
 
 [client.services.ratgumshoe]
 token = "use_a_secret_that_only_you_know"
-local_addr = "127.0.0.1:5100"
+local_addr = "127.0.0.1:5002"
 
 [client.services.rattaps]
 token = "use_a_secret_that_only_you_know"
